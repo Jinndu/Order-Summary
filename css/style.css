@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(bg-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ h2{
+   color: hsl(223, 47%, 23%)
+;
+   font-family: 'Red Hat Display-Black', sans-serif;;
+   font-size: 1.5rem;
+ }
+
+ p{
+   color: #7F8487;
+   line-height: 1.5;
+   margin-left: 25%;
+   width: 50%;
+   display: flex;
+ }
+
+/* pricebox */
+.pricebox {
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 5% 30% 10%;
+  width: 40%;
+  text-align: center;
+  border: solid #bbb;
+  padding-bottom: 2%;
+}
+
+.pricebox img {
+  width: 100%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+/* Annual PLan */
+.annual-plan{
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  margin: 0 20% 5%;
+  padding-bottom: 5%;
+  position: relative;
+}
+span{
+  background-color: hsl(225, 100%, 94%);
+  padding: 4%;
+  border-radius: 100px;
+  font-size: 1.6rem;
+  position: absolute;
+  left: 8%;
+  top: 20%;
+  color: hsl(224, 23%, 55%);
+}
+.annual-plan h3{
+    color: hsl(223, 47%, 23%)
+;
+    font-family: 'Red Hat Display', sans-serif;;
+    padding: 10% 0 0 30%;
+    text-align: left;
+    margin-bottom: 0;
+}
+.annual-plan a{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+  position: absolute;
+  right: 2%;
+  top: 40%;
+}
+.annual-plan a:hover{
+  color: #7a59ff;
+}
+.annual-plan p{
+  margin: 0 30% 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+/* Payment And Cancelation */
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  border-style: none;
+  -webkit-box-shadow: 0px 11px 5px #c9c9c9;
+  -moz-box-shadow: 0px 11px 5px #c9c9c9;
+  box-shadow: 0px 15px 5px #c9c9c9;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  background: #4260d6;
+  padding: 15px 50px ;
+  text-decoration: none;
+  width: 80%;
+}
+
+.btn:hover {
+  background: #7a59ff;
+  text-decoration: none;
+}
+.pricebox > a{
+  color: #4260d6;
+  display: inline-block;
+  margin-top: 17px;
+  text-decoration: none;
+}
+.pricebox > a:hover{
+  color: #0000ff;
+}
+@media (max-width: 1080px) {
+  .pricebox{
+    width: 50%;
+  }
+}
+@media (max-width: 860px) {
+  .pricebox{
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+@media (max-width: 740px) {
+  .pricebox{
+    width: 90%;
+    margin:2% 5%;
+  }
+}
+@media (max-width: 375px) {
+  .pricebox{
+    width: 100%;
+    margin: 0;
+  }
+}
