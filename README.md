@@ -21,8 +21,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://github.com/Jinndu/Order-Summary)
+- Solution URL: (https://jinndu.github.io/Order-Summary/)
+- Live Site URL: (https://github.com/Jinndu/Order-Summary)
 
 
 ### Built with
@@ -34,7 +34,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [jinndu](https://jinndu.github.io/Order-Summary/)
 - Frontend Mentor - [@Jinndu](https://www.frontendmentor.io/profile/Jinndu)
 - Twitter - [@angelo27](https://www.twitter.com/angelo27)
 
